@@ -1,0 +1,27 @@
+{
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
+    "tasks": [
+      { 
+        "taskName": "ts",
+        "args": [
+          "ts"
+        ],
+        "isBuildCommand": true,
+        "showOutput": "never"
+      },
+      { 
+        "taskName": "ts-watch",
+        "args": [
+          "ts-watch"
+        ],
+        "isBuildCommand": false,
+        "isWatching": true,
+        "showOutput": "silent"
+      }
+    ]
+}

@@ -1,0 +1,93 @@
+<div class="container theme-showcase" role="main">
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-sm-8">
+        <p translate="WELCOME_MESSAGE"></p>
+      </div>
+    </div>
+  </div>
+  <div class="page-header">
+    <h1>Generators</h1>
+
+    <div class="row">
+      <pre class="col-sm-4" style="font-family: monospace">gulp component --name [componentname]</pre>
+      <div class="col-sm-8">
+        <p style="padding-top: 10px;">
+          Adds a new Angular component (including tests, styles, and a service) into the <i>app</i> folder.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <pre class="col-sm-4" style="font-family: monospace">gulp component --name [componentname] --noservice</pre>
+      <div class="col-sm-8">
+        <p style="padding-top: 10px;">
+          Adds a new Angular component - same as above but without the service.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <pre class="col-sm-4" style="font-family: monospace">gulp component --name [componentname] --parent [parentcomponent]</pre>
+      <div class="col-sm-8">
+        <p style="padding-top: 10px;">
+          Adds a new Angular component to a parent component. It is put into a sub folder of the parent component folder.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-header">
+    <h1>Task Runner</h1>
+
+    <div class="row">
+      <pre class="col-sm-4" style="font-family: monospace">npm start</pre>
+      <div class="col-sm-8">
+        <p style="padding-top: 10px;">
+          Compiles and injects all TypeScript files into the index.html, compiles all LESS files into one CSS file and starts an HTTP server that refreshes automatically when files change.
+        </p>
+      </div>
+    </div>
+
+    <h2>Building</h2>
+
+    <div class="row">
+      <pre class="col-sm-4" style="font-family: monospace">npm run build</pre>
+      <div class="col-sm-8">
+        <p style="padding-top: 10px;">
+          Compiles, minifies, and injects all TypeScript files into the index.html and compiles all LESS files into one CSS file. This generates an app for distribution.
+        </p>
+      </div>
+    </div>
+
+    <h2>Testing</h2>
+
+    <div class="row">
+      <pre class="col-sm-4" style="font-family: monospace">npm test</pre>
+      <div class="col-sm-8">
+        <p style="padding-top: 10px;">
+          Runs all your jasmine/karma unit tests.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <pre class="col-sm-4" style="font-family: monospace">npm run e2e</pre>
+      <div class="col-sm-8">
+        <p style="padding-top: 10px;">
+          Runs all your protractor end-to-end tests.
+        </p>
+      </div>
+    </div>
+
+    <h2>Example Code</h2>
+
+    <div class="row">
+      <div class="col-sm-12">
+        Data binding from controller: {{$ctrl.title}}<br />
+      </div>
+    </div>
+  </div>
+
+</div> <!-- /container -->
