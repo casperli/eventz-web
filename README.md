@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # generator-hatch
 
 ## Getting started
@@ -94,3 +95,6 @@ app/
 - https://github.com/mgechev/angular2-seed
 - https://egghead.io/lessons/angular-2-organizing-angular-2-projects-by-feature
 - http://stackoverflow.com/questions/35346342/which-type-of-folder-structure-should-be-used-with-angular-2
+=======
+# eventz-web
+>>>>>>> 8ef4836589413a9c2f660f61317c84e237fddde5
